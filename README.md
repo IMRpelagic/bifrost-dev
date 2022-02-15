@@ -30,11 +30,12 @@ head(cap)
 I R-mappen har jeg laget et skript *main.R* som kan kjøres som et
 fungerende eksempel. Kjører det under her:
 
+### R/Main.R
+
 ``` r
 # Script for å kjøre "ren" TMB-kode
-# ---- 
-#
-#
+# - bruker noen funksjoner fra Rbifrost (fra R-mappen)
+# - til å sette opp data og initial parametre
 
 library(TMB)
 compile("src/mature.cpp")

@@ -17,6 +17,8 @@ head(cap)
 
 I R-mappen har jeg laget et skript *main.R* som kan kjøres som et fungerende eksempel. Kjører det under her: 
 
+### R/Main.R
+
 ```{r code=readLines("R/main.R")}
 ```
 
