@@ -3,6 +3,10 @@
 # - til å sette opp data og initial parametre
 
 library(TMB)
+
+# --------------
+# -- Maturity --
+# --------------
 compile("src/mature.cpp")
 dyn.load(dynlib("src/mature"))
 

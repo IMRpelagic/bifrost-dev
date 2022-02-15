@@ -38,6 +38,10 @@ fungerende eksempel. Kjører det under her:
 # - til å sette opp data og initial parametre
 
 library(TMB)
+
+# --------------
+# -- Maturity --
+# --------------
 compile("src/mature.cpp")
 ```
 
