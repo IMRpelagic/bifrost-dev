@@ -1,0 +1,22 @@
+---
+title: "Bifrost"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Bifrost uten R pakke-strukturen
+
+Her er en enkel sammensetning av sentrale skript fra R-pakken bifrost. I src/ folderen finner du TMB-koden (.cpp-filer). I data folderen ligger dataene som .rda filer som kan lastes inn ved, f.eks.
+```{r capdata}
+load("data/cap.rda")
+head(cap)
+```
+
+I R-mappen har jeg laget et skript *main.R* som kan kjøres som et fungerende eksempel. Kjører det under her: 
+
+```{r code=readLines("R/main.R")}
+```
+
