@@ -1,7 +1,6 @@
 # Script for å kjøre "ren" TMB-kode
-# ---- 
-#
-#
+# - bruker noen funksjoner fra Rbifrost (fra R-mappen)
+# - til å sette opp data og initial parametre
 
 library(TMB)
 compile("src/mature.cpp")
